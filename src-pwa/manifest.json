@@ -2,6 +2,12 @@
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#027be3",
+  "short_name": "Ekeep",
+  "name": "Ekepp",
+  "description": "Ekeep vue.js",
+  "display": "fullscreen",
+  "dir": "ltr",
+  "lang": "en-US",
   "icons": [
     {
       "src": "icons/icon-128x128.png",
