@@ -23,8 +23,10 @@
         class="bg-primary text-white shadow-2"
         :breakpoint="0"
       >
-        <q-route-tab name="home" icon="home" label="Home" to="/" exact />
-        <q-route-tab name="profile" icon="person" label="Profile" to="/profile" />
+        <q-route-tab to="/expenses/payment" name="payment" icon="payment" label="payment" />
+        <q-route-tab to="/expenses/" name="purchases" icon="payment" label="Purchases" />
+        <q-route-tab to="/expenses/purchase" name="purchase" icon="group" label="purchase" />
+        <q-route-tab to="/expenses/users" name="users" icon="person" label="Users" />
       </q-tabs>
     </q-footer>
   </q-layout>
@@ -34,7 +36,7 @@
 import { ref } from 'vue';
 
 defineOptions({
-  name: 'MainLayout',
+  name: 'ExpensesLayout',
 });
 const tab = ref('home');
 </script>
